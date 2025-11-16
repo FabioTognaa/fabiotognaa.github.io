@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+@theme {
+  /*    Variabile keyframe entrata scritte pagina home    */
+  --animate-fade-in-slide-up: fade-in-slide-up 900ms ease-out forwards;
+}
+@keyframes fade-in-slide-up {
+  0% {
+    opacity: 0;
+    /* La tua trasformazione originale: 20px verso destra */
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
