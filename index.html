@@ -35,7 +35,7 @@
           <a
             class="cursor-pointer text-center no-underline transition-all duration-200 ease-in-out hover:scale-120 hover:rounded-2xl hover:px-[18px] hover:py-[5px] hover:text-[#0a2342]"
             href="#progetti-section"
-            >Progetti</a
+            >Skills</a
           >
           <a
             class="cursor-pointer text-center no-underline transition-all duration-200 ease-in-out hover:scale-120 hover:rounded-2xl hover:px-[18px] hover:py-[5px] hover:text-[#0a2342]"
@@ -97,7 +97,7 @@
     >
       About Me
     </h1>
-    <section class="m-16 mt-16 mr-36 mb-40 flex h-4/5 gap-10">
+    <section class="m-16 mt-16 mr-36 mb-24 flex h-4/5 gap-10">
       <div
         class="flex max-w-sm flex-1 flex-col justify-center rounded-lg border border-blue-200 p-3 text-center transition-all duration-200 ease-in-out hover:shadow-xl/20"
       >
@@ -116,9 +116,7 @@
           >
         </div>
       </div>
-      <div
-        class="flex-3 rounded-lg p-2 transition-all duration-200 ease-in-out hover:shadow-xl/20"
-      >
+      <div class="flex-3 rounded-lg p-2">
         <h1 class="mb-4 text-4xl font-light">Chi sono:</h1>
         <p class="text-[0.9rem] font-light">
           Studente di informatica presso l'Università di Pisa, con la passione
@@ -128,6 +126,13 @@
           Cosa aggiungere sotto: Obiettivi: "Attualmente alla ricerca di
           opportunità di stage o progetti open source per mettere in pratica le
           mie competenze in [Tecnologia specifica]."
+        </p>
+        <h1 class="mt-6 mb-4 text-4xl font-light">Passioni ed Obiettivi</h1>
+        <p class="text-[0.9rem] font-light">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+          enim, pariatur id aliquid perspiciatis voluptatum ea odio consequatur
+          assumenda mollitia rerum nesciunt, dolor repudiandae quae, maiores
+          cupiditate numquam sed atque?
         </p>
       </div>
     </section>
@@ -164,52 +169,130 @@
       id="progetti-section"
       class="mt-28 mb-24 ml-16 scroll-mt-28 text-7xl font-light"
     >
-      Progetti
+      Skills
     </h1>
-    <section class="h-screen">
-      <h1 class="text-center">
+    <section class="mx-16 mb-20">
+      <h1 class="mb-20 text-center text-4xl font-light">
         Ottime competenze in molti linguaggi di programmazione.
       </h1>
-      <div class="flex justify-around">
-        <div class="flex flex-col items-center justify-center gap-3">
-          <img
-            src="/javascript-icon.svg"
-            class="h-auto w-14 transition-transform duration-200 ease-in-out hover:scale-105"
-            alt=""
-          />
-          <img
-            src="/html_icon.svg"
-            class="h-auto w-14 transition-transform duration-200 ease-in-out hover:scale-105"
-            alt=""
-          />
-          <img
-            src="/css-icon.svg"
-            class="h-auto w-14 transition-transform duration-200 ease-in-out hover:scale-105"
-            alt=""
-          />
+      <div class="grid grid-cols-1 gap-14 sm:grid-cols-2 lg:grid-cols-2">
+        <div
+          class="mx-auto max-w-lg overflow-hidden rounded-xl border border-blue-300 bg-transparent shadow-md transition-all duration-200 ease-in-out hover:shadow-xl/20"
+        >
+          <div class="md:flex">
+            <div
+              class="flex h-full flex-col items-center justify-center gap-3 bg-blue-200 p-4 md:shrink-0"
+            >
+              <img
+                src="/javascript-icon.svg"
+                alt="JavaScript Logo"
+                class="mb-2 h-auto w-14"
+              />
+              <img
+                src="/html_icon.svg"
+                alt="HTML5 Logo"
+                class="mb-2 h-auto w-14"
+              />
+              <img src="/css-icon.svg" alt="CSS3 Logo" class="h-auto w-14" />
+            </div>
+            <div class="p-8 pt-5">
+              <h2 class="mt-1 block text-4xl leading-tight font-medium">
+                Web Development
+              </h2>
+              <p class="mt-4">
+                Solida padronanza di HTML, CSS e JavaScript per la creazione di
+                interfacce utente dinamiche e responsive.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="flex flex-col items-center justify-center gap-3">
-          <img
-            src="/nodejs-ar21.svg"
-            class="h-14 w-auto transition-transform duration-200 ease-in-out hover:scale-105"
-            alt=""
-          />
 
-          <img
-            src="/tailwindcss-icon.svg"
-            class="h-auto w-14 transition-transform duration-200 ease-in-out hover:scale-105"
-            alt=""
-          />
-          <img
-            src="/react_icon.svg"
-            class="h-auto w-14 transition-transform duration-200 ease-in-out hover:scale-105"
-            alt=""
-          />
+        <div
+          class="mx-auto max-w-lg overflow-hidden rounded-xl border border-blue-300 bg-transparent shadow-md transition-all duration-200 ease-in-out hover:shadow-xl/20"
+        >
+          <div class="h-full md:flex">
+            <div
+              class="flex h-full flex-col items-center justify-center gap-3 bg-blue-200 p-4 md:shrink-0"
+            >
+              <img
+                src="/nodejs-ar21.svg"
+                alt="nodejs Logo"
+                class="mb-2 h-auto w-14"
+              />
+              <img
+                src="/tailwindcss-icon.svg"
+                alt="tailwindcss Logo"
+                class="mb-2 h-auto w-14"
+              />
+              <img src="/react_icon.svg" alt="React Logo" class="h-auto w-14" />
+            </div>
+            <div class="p-8 pt-5">
+              <h2 class="mt-1 block text-4xl leading-tight font-medium">
+                Framework & Librerie
+              </h2>
+              <p class="mt-4">
+                Esperienza con Node.js per il Back-End, React per lo sviluppo di
+                componenti dinamici e Tailwind CSS per lo styling rapido.
+              </p>
+            </div>
+          </div>
         </div>
-        <div>
-          <img src="java.svg" alt="">
-          <img src="/c.svg" alt="">
-          <img src="/cpp.svg" alt="">
+
+        <div
+          class="mx-auto max-w-lg overflow-hidden rounded-xl border border-blue-300 bg-transparent shadow-md transition-all duration-200 ease-in-out hover:shadow-xl/20"
+        >
+          <div class="md:flex">
+            <div
+              class="flex h-full flex-col items-center justify-center gap-3 bg-blue-200 p-4 md:shrink-0"
+            >
+              <img
+                src="/java_icon.svg"
+                alt="Java Logo"
+                class="mb-2 h-auto w-14"
+              />
+              <img
+                src="/cpp_icon.svg"
+                alt="Cpp Logo"
+                class="mb-2 h-auto w-14"
+              />
+              <img src="/c_icon.svg" alt="C Logo" class="h-auto w-14" />
+            </div>
+            <div class="p-8 pt-5">
+              <h2 class="mt-2 block text-3xl leading-tight font-medium">
+                Back-End Development
+              </h2>
+              <p class="mt-4">
+                Solide basi in C, C++ e Java, essenziali per la programmazione
+                di sistemi, la comprensione di strutture dati e algoritmi.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mx-auto max-w-lg overflow-hidden rounded-xl border border-blue-300 bg-transparent shadow-md transition-all duration-200 ease-in-out hover:shadow-xl/20"
+        >
+          <div class="h-full md:flex">
+            <div
+              class="flex h-full flex-col items-center justify-center gap-3 bg-blue-200 p-4 md:shrink-0"
+            >
+              <img src="/github.svg" alt="Git Logo" class="mb-2 h-auto w-14" />
+              <img
+                src="/python_icon.svg"
+                alt="Python Logo"
+                class="mb-2 h-auto w-16"
+              />
+            </div>
+            <div class="p-8 pt-5">
+              <h2 class="mt-1 block text-3xl leading-tight font-medium">
+                Version Control & API
+              </h2>
+              <p class="mt-4">
+                Competenza nell'uso di Git per il versionamento, conoscenza di
+                Python collegamenti API tra applicazioni.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
