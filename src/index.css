@@ -1,5 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("./assets/background4.png");
+  background-size: cover;
+  color: #0a2324;
+  scroll-behavior: smooth;
+}
+
 @theme {
   /*    Variabile keyframe entrata scritte pagina home    */
   --animate-fade-in-slide-up: fade-in-slide-up 900ms ease-out forwards;
