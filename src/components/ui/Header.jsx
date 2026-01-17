@@ -11,7 +11,7 @@ function Header() {
     },
     {
       label: "Scarica CV",
-      href: "/cv.pdf", // Percorso del file
+      href: "/cv-tognarelli-fabio.pdf", // Percorso del file
       type: "download", // Flag per attivare il download
     },
   ];

@@ -7,7 +7,7 @@ function NavItem({ item }) {
     <a
       className="cursor-pointer text-center no-underline transition-all duration-200 ease-in-out hover:scale-110 hover:px-[18px] hover:py-[5px] hover:text-[#0a2342]"
       href={href}
-      download={isDownload ? "cv-TOGNARELLI-FABIO.pdf" : undefined}
+      download={isDownload ? "/cv-tognarelli-fabio.pdf" : undefined}
     >
       {label}
     </a>

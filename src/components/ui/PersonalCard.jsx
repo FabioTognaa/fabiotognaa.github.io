@@ -13,8 +13,8 @@ function PersonalCard() {
       <div className="m-2">
         <a
           className="m-0 inline-block w-3/4 rounded-full border-2 border-blue-300 px-2.5 py-1 text-center text-lg font-semibold text-[#0a2342] transition-all duration-100 ease-linear hover:scale-105 hover:bg-blue-300 hover:text-gray-100"
-          href="../../assets/cv_TOGNARELLI_FABIO.pdf"
-          download="cv_TOGNARELLI_FABIO.pdf"
+          href="/cv-tognarelli-fabio.pdf"
+          download="/cv-tognarelli-fabio.pdf"
         >
           Scarica CV
         </a>
