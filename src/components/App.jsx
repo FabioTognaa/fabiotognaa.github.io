@@ -9,9 +9,11 @@ function App() {
   return (
     <>
       <HomeSection />
-      <AboutMeSection />
-      <StudySection />
-      <SkillSection />
+      <main>
+        <AboutMeSection />
+        <StudySection />
+        <SkillSection />
+      </main>
       <ContactSection />
     </>
   );
