@@ -19,11 +19,8 @@ function StudySection() {
   ];
   return (
     <>
-      <SectionTitle
-        key="percorso-studi"
-        section="Percorso di Studi:"
-      />
-      <section className="mx-16 mt-24 mb-80 flex h-3/4 gap-4">
+      <SectionTitle key="percorso-studi" section="Percorso di Studi:" />
+      <section className="mx-4 md:mx-16 mt-24 mb-80 md:flex h-3/4 gap-4">
         {schools.map((school, index) => (
           <SchoolCard
             key={index}

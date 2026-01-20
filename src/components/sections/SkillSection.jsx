@@ -61,7 +61,7 @@ function SkillSection() {
     <div id="skills" className="scroll-mt-28">
       <SectionTitle label="Skills" />
       <section className="mx-16 mb-20">
-        <h1 className="mt-20 mb-20 text-center text-3xl font-light">
+        <h1 className="mt-20 mb-20 text-center text-xl md:text-3xl font-light">
           Ottime competenze in molti linguaggi di programmazione.
         </h1>
         <div className="grid grid-cols-1 gap-14 sm:grid-cols-2 lg:grid-cols-2">

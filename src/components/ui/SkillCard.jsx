@@ -4,7 +4,7 @@ function SkillCard({ title, description, icons }) {
   return (
     <div className="mx-auto h-full max-w-lg overflow-hidden rounded-xl border border-blue-300 bg-transparent shadow-md transition-all duration-200 ease-in-out hover:shadow-xl/20">
       <div className="h-full md:flex">
-        <div className="flex flex-col items-center justify-center gap-3 bg-blue-200 p-4 md:shrink-0">
+        <div className="flex flex-row md:flex-col items-center justify-around md:justify-center gap-3  p-4 md:shrink-0">
           {icons.map((icon) => (
             <img src={icon.src} alt="icon.alt" className="mb-2 h-auto w-14" />
           ))}

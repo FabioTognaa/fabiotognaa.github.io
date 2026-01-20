@@ -1,24 +1,24 @@
 import Header from "../ui/Header";
 import AsideBar from "../ui/AsideBar";
+import NavButton from "../ui/NavButton";
 function HomeSection() {
   return (
     <section className="m-0 h-screen" id="home">
       <Header />
       <AsideBar />
       <div className="flex h-full w-full flex-col items-center justify-center px-4 text-center tracking-wider text-[#0a2342] md:text-left">
-        <h1 className="animate-fade-in-slide-up text-3xl font-semibold opacity-0 delay-500 md:text-4xl">
+        <h1 className="animate-fade-in-slide-up text-3xl font-semibold opacity-0 delay-500 md:text-4xl md:mb-3.5">
           Ciao, sono Fabio Tognarelli!
         </h1>
-        <p className="animate-fade-in-slide-up mt-4 mb-4 text-base font-light opacity-0 delay-700 md:text-lg">
+        <p className=" hidden animate-fade-in-slide-up md:block mt-4 mb-4 text-base font-light opacity-0 delay-700 md:text-lg">
           Sono uno studente di informatica presso l'università degli studi di
           Pisa. Questo è il mio sito web personale.
         </p>
-        <a
-          className="mt-4 p-2 text-lg no-underline transition-all duration-150 ease-out hover:scale-110 hover:cursor-pointer hover:rounded-[3rem] hover:bg-[#0a2342] hover:px-6 hover:py-2 hover:font-semibold hover:text-white md:m-0 md:mr-6 md:p-0"
-          href="#about"
-        >
-          Cliccami
-        </a>
+        <NavButton
+          href={"#about"}
+          label={"Esplora"}
+          className={"mt-18 md:mt-4 -translate-x-2 md:-translate-x-6"}
+        />
       </div>
     </section>
   );
