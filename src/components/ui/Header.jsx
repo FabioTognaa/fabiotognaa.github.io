@@ -1,6 +1,6 @@
 import Navbar from "./Navbar.jsx";
 
-//*HEADER FISSO IN ALTO 
+//*HEADER FISSO IN ALTO
 function Header() {
   //*Sinistra: download cv e link per form contatti
   const navItemsSx = [

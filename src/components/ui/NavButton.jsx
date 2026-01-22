@@ -15,12 +15,7 @@ function NavButton({ href, label, className = "" }) {
   return (
     <a
       href={href}
-      className={`
-        mt-4 text-lg no-underline transition-all duration-150 ease-out
-        ${buttonStyle}        
-        ${linkStyle}
-        md:hover:scale-110 md:hover:${buttonStyle.replace(/ /g, " md:hover:")} 
-      ${className}`}
+      className={`mt-4 text-lg no-underline transition-all duration-150 ease-out ${buttonStyle} ${linkStyle} md:hover:scale-110 md:hover:${buttonStyle.replace(/ /g, " md:hover:")} ${className}`}
     >
       {label}
     </a>
