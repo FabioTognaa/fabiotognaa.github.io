@@ -16,6 +16,7 @@ Il progetto è costruito con un approccio moderno, pulito e focalizzato sulle pe
 
 - **Design Responsivo:** Layout fluido ottimizzato per desktop, tablet e smartphone.
 - **Interfaccia Moderna:** Stile minimalista e pulito realizzato con Tailwind CSS.
+- **Accessibilità:** Menu di navigazione e interazioni gestite con **Headless UI** per la massima accessibilità.
 - **Architettura a Componenti:** Struttura modulare basata su React per la massima manutenibilità.
 - **Download CV:** Accesso diretto al curriculum vitae aggiornato.
 
@@ -23,13 +24,14 @@ Il progetto è costruito con un approccio moderno, pulito e focalizzato sulle pe
 
 Ecco le tecnologie e gli strumenti utilizzati per realizzare questo progetto:
 
-| Categoria           | Tecnologie                       |
-| :------------------ | :------------------------------- |
-| **Frontend**        | React, Tailwind CSS              |
-| **Build Tool**      | Vite                             |
-| **Version Control** | Git & GitHub                     |
-| **Deployment**      | GitHub Pages                     |
-| **Design & Assets** | Canva (Icone e editing immagini) |
+| Categoria           | Tecnologie                          |
+| :------------------ | :---------------------------------- |
+| **Frontend**        | React, Tailwind CSS, Headless UI    |
+| **Code Quality**    | Prettier (Tailwind Plugin), ESLint  |
+| **Build Tool**      | Vite                                |
+| **Version Control** | Git & GitHub                        |
+| **Deployment**      | GitHub Pages                        |
+| **Design & Assets** | Canva (editing immagini), HeroIcons |
 
 ## 📸 Anteprima
 
@@ -37,9 +39,9 @@ Ecco le tecnologie e gli strumenti utilizzati per realizzare questo progetto:
 
 ![Desktop Screenshot](/public/screenshots/desktop-preview.png)
 
-<!-- ### Mobile View
-finire in layout per mobile
- -->
+### Mobile View
+
+![Mobile Screenshot](/public/screenshots/mobile-preview.png)
 
 ## 🚀 Come avviare il progetto in locale
 
