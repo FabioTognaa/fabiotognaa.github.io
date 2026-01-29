@@ -25,7 +25,7 @@ function Header() {
     { label: "Contatti", href: "#contatti" }, // Esempio: scrolla al footer
   ];
   return (
-    <header className="fixed top-0 right-0 left-0 z-50 flex h-20 w-full items-center justify-between px-4 text-[1rem] font-black shadow-xl/10 backdrop-blur-lg md:h-24 md:px-12">
+    <header className="fixed top-0 right-0 left-0 z-50 flex h-20 items-center justify-between px-4 text-[1rem] font-black shadow-xl/10 backdrop-blur-lg md:h-24 md:px-12">
       <Navbar items={navItemsSx} />
       <Navbar items={navItemsDx} className="ml-auto hidden md:flex" />
 

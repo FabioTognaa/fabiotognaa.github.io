@@ -6,9 +6,13 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-image: url("./assets/background4.png");
-  background-size: cover;
+  background-attachment: fixed;
   color: #0a2324;
   scroll-behavior: smooth;
+  /* impedisce lo scroll orizzontale indesiderato, che causa problemi con il menu a tendina  */
+  overflow-x: hidden;
+  width: 100%;
+  position: relative; /* Aiuta a contenere gli elementi assoluti */
 }
 
 @theme {

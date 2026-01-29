@@ -24,7 +24,7 @@ function ProjectsSection() {
     <div id="projects" className="mt-30 scroll-mt-28">
       <SectionTitle label="Projects" />
       <section className="mt-10">
-        <div className="flex flex-row items-center justify-around gap-5">
+        <div className="flex flex-col items-center justify-around gap-5 md:flex-row">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

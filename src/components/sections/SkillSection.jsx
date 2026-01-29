@@ -59,9 +59,9 @@ function SkillSection() {
   ];
   return (
     <div id="skills" className="scroll-mt-28">
-      <SectionTitle label="Skills" />
-      <section className="mx-16 mb-20">
-        <h1 className="mt-20 mb-20 text-center text-xl md:text-3xl font-light">
+      <SectionTitle label="Skills" class />
+      <section className="mx:8 mt-12 mb-20 md:mx-16 md:mt-0">
+        <h1 className="mt-20 mb-20 hidden text-center text-xl font-light md:block md:text-3xl">
           Ottime competenze in molti linguaggi di programmazione.
         </h1>
         <div className="grid grid-cols-1 gap-14 sm:grid-cols-2 lg:grid-cols-2">

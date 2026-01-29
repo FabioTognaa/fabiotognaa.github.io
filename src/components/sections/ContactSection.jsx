@@ -21,7 +21,7 @@ function ContactSection() {
     },
   ];
   return (
-    <footer className="h-full bg-transparent py-8 mt-50" id="contatti">
+    <footer className="h-full bg-transparent py-8 mt-25 md:mt-50" id="contatti">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex  items-center justify-between border-b border-blue-300 md:pb-8">
           <span className="mb-4 text-2xl font-semibold md:mb-0 md:text-3xl">
